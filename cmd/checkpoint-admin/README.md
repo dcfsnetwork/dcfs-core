@@ -18,7 +18,7 @@ However, from a security perspective, the most critical step in a synchronizatio
 
 #### Hardcoded checkpoint
 
-There are several hardcoded checkpoints in the [source code](https://github.com/ethereum/go-ethereum/blob/master/params/config.go#L38) of the go-ethereum project. These checkpoints are updated by go-ethereum developers when new versions of software are released. Because light client users trust Geth developers to some extent, hardcoded checkpoints in the code can also be considered correct.
+There are several hardcoded checkpoints in the [source code](https://github.com/ethereum/go-ethereum/blob/master/params/config.go#L38) of the go-DCFS project. These checkpoints are updated by go-DCFS developers when new versions of software are released. Because light client users trust Geth developers to some extent, hardcoded checkpoints in the code can also be considered correct.
 
 #### Checkpoint oracle
 
