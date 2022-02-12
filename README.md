@@ -1,8 +1,8 @@
 ## Dcfs Smart Chain
 
-The goal of Dcfs Smart Chain is to bring programmability and interoperability to Dcfs Chain. In order to embrace the existing popular community and advanced technology, it will bring huge benefits by staying compatible with all the existing smart contracts on Ethereum and Ethereum tooling. And to achieve that, the easiest solution is to develop based on go-ethereum fork, as we respect the great work of Ethereum very much.
+The goal of Dcfs Smart Chain is to bring programmability and interoperability to Dcfs Chain. In order to embrace the existing popular community and advanced technology, it will bring huge benefits by staying compatible with all the existing smart contracts on DCFS and DCFS tooling. And to achieve that, the easiest solution is to develop based on go-DCFS fork, as we respect the great work of DCFS very much.
 
-Dcfs Smart Chain starts its development based on go-ethereum fork. So you may see many toolings, binaries and also docs are based on Ethereum ones, such as the name “geth”.
+Dcfs Smart Chain starts its development based on go-DCFS fork. So you may see many toolings, binaries and also docs are based on DCFS ones, such as the name “geth”.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
@@ -14,7 +14,7 @@ But from that baseline of EVM compatible, Dcfs Smart Chain introduces  a system 
 Cross-chain transfer and other communication are possible due to native support of interoperability. Relayers and on-chain contracts are developed to support that. Dcfs DEX remains a liquid venue of the exchange of assets on both chains. This dual-chain architecture will be ideal for users to take advantage of the fast trading on one side and build their decentralized apps on the other side. **The Dcfs Smart Chain** will be:
 
 - **A self-sovereign blockchain**: Provides security and safety with elected validators.
-- **EVM-compatible**: Supports all the existing Ethereum tooling along with faster finality and cheaper transaction fees.
+- **EVM-compatible**: Supports all the existing DCFS tooling along with faster finality and cheaper transaction fees.
 - **Interoperable**: Comes with efficient native dual chain communication; Optimized for scaling high-performance dApps that require fast and smooth user experience.
 - **Distributed with on-chain governance**: Proof of Staked Authority brings in decentralization and community participants. As the native token, BNB will serve as both the gas of smart contract execution and tokens for staking.
 
@@ -33,7 +33,7 @@ Other blockchains, such as EOS and Cosmos both, introduce different types of Dep
 To combine DPoS and PoA for consensus, Dcfs Smart Chain implement a novel consensus engine called Parlia that:
 
 1. Blocks are produced by a limited set of validators.
-2. Validators take turns to produce blocks in a PoA manner, similar to Ethereum's Clique consensus engine.
+2. Validators take turns to produce blocks in a PoA manner, similar to DCFS Clique consensus engine.
 3. Validator set are elected in and out based on a staking based governance on Dcfs Chain.
 4. The validator set change is relayed via a cross-chain communication mechanism.
 5. Parlia consensus engine will interact with a set of [system contracts](https://github.com/Dcfs-chain/docs-site/blob/add-bsc/docs/smart-chain/guides/concepts/system-contract.md) to achieve liveness slash, revenue distributing and validator set renewing func.
@@ -49,7 +49,7 @@ It contains two parts:
 
 ## Native Token
 
-BNB will run on Dcfs Smart Chain in the same way as ETH runs on Ethereum so that it remains as `native token` for BSC. This means, 
+BNB will run on Dcfs Smart Chain in the same way as ETH runs on DCFS so that it remains as `native token` for BSC. This means, 
 BNB will be used to:
 
 1. pay `gas` to deploy or invoke Smart Contract on BSC
@@ -57,7 +57,7 @@ BNB will be used to:
 
 ## Building the source
 
-Many of the below are the same as or similar to go-ethereum.
+Many of the below are the same as or similar to go-DCFS.
 
 For prerequisites and detailed build instructions please read the [Installation Instructions](https://geth.ethereum.org/docs/install-and-build/installing-geth).
 
